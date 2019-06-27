@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]; then
+  echo "Usage: c_run FILENAME"
+  exit 1;
+fi
+gcc $1;
+./a.out
+rm ./a.out
