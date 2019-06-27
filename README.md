@@ -1,4 +1,4 @@
-# c_run
+# c
 Compile and Run C code using only one command line
 
 ## How to install
