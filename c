@@ -19,7 +19,7 @@ fi
 
 gcc $input_filename -o $output_filename;
 
-if [ "$command" == "run" ]; then 
+if [ "$command" == "run" ] && [ -f "$output_filename" ]; then 
   ./$output_filename
   rm ./$output_filename
 fi
