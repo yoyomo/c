@@ -3,8 +3,8 @@ Compile and Run C code using only one command line
 
 ## How to install
 `brew update`\
-`brew tap yoyomo/tap`\
-`brew install yoyomo/tap/c`
+`brew tap yoyomo/brewery`\
+`brew install yoyomo/brewery/c`
 
 ## How to use
 `c COMMAND INPUT_FILENAME [-o OUTPUT_FILENAME]`
